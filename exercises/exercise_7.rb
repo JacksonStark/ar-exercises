@@ -10,3 +10,9 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+@whistlerWhistles = Store.create(name: "Whistler Whistles")
+
+puts "🤔 VALIDATION: #{@whistlerWhistles.valid?}"
+
+puts "🔴 THE ERROR DETAILS: #{@whistlerWhistles.errors.details}"

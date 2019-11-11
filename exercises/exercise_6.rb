@@ -20,4 +20,4 @@ puts "----------"
 @store2.employees.create(first_name: 'Hana', last_name: 'Coates', hourly_rate: 22)
 @store2.employees.create(first_name: 'Karlee', last_name: 'Soderberg', hourly_rate: 95)
 
-puts Employees.where(id: 1).all.inspect
+puts @store1.employees.inspect
