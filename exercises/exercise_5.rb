@@ -8,3 +8,8 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+
+puts Store.average(:annual_revenue)
+# @revenue_avg = Store.average("annual_revenue")
+
+# puts @revenue_sum.inspect
